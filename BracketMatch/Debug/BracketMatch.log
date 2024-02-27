@@ -1,0 +1,5 @@
+﻿  BracktMatch.c
+D:\git\DataStruct\BracketMatch\BracktMatch.c(21,10): warning C4098: “IniLStack”:“void”函数返回值
+D:\git\DataStruct\BracketMatch\BracktMatch.c(59): warning C4715: “Pop”: 不是所有的控件路径都返回值
+D:\git\DataStruct\BracketMatch\BracktMatch.c(98): warning C4715: “BracktMatch”: 不是所有的控件路径都返回值
+  BracketMatch.vcxproj -> D:\git\DataStruct\BracketMatch\Debug\BracketMatch.exe
