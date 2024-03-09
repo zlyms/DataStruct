@@ -1,0 +1,3 @@
+﻿  reverseQueue.c
+D:\git\DataStruct\reverseQueue\reverseQueue.c(111): warning C4716: “reverseElem”: 必须返回一个值
+  reverseQueue.vcxproj -> D:\git\DataStruct\reverseQueue\Debug\reverseQueue.exe
