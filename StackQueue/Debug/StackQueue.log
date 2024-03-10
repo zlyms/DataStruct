@@ -1,0 +1,4 @@
+﻿  StackQueue.c
+D:\git\DataStruct\StackQueue\StackQueue.c(64): warning C4716: “enQueue”: 必须返回一个值
+D:\git\DataStruct\StackQueue\StackQueue.c(77): warning C4715: “deQueue”: 不是所有的控件路径都返回值
+  StackQueue.vcxproj -> D:\git\DataStruct\StackQueue\Debug\StackQueue.exe

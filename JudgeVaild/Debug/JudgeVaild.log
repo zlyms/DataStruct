@@ -1,0 +1,3 @@
+﻿  judeValid.c
+D:\git\DataStruct\JudgeVaild\judeValid.c(14): warning C4716: “Pop”: 必须返回一个值
+  JudgeVaild.vcxproj -> D:\git\DataStruct\JudgeVaild\Debug\JudgeVaild.exe
