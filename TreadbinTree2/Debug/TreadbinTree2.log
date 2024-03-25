@@ -1,0 +1,5 @@
+﻿  TreadBinTree.c
+D:\git\DataStruct\TreadbinTree2\TreadBinTree.c(236): warning C4715: “inNextNode”: 不是所有的控件路径都返回值
+D:\git\DataStruct\TreadbinTree2\TreadBinTree.c(263): warning C4715: “inPreNode”: 不是所有的控件路径都返回值
+D:\git\DataStruct\TreadbinTree2\TreadBinTree.c(283): warning C4715: “preNextNode”: 不是所有的控件路径都返回值
+  TreadbinTree2.vcxproj -> D:\git\DataStruct\TreadbinTree2\Debug\TreadbinTree2.exe
