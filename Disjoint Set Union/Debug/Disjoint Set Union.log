@@ -1,0 +1,4 @@
+﻿  DisjointSetUnion.c
+D:\git\DataStruct\Disjoint Set Union\DisjointSetUnion.c(64,3): warning C4033: “findImporve”必须返回值
+D:\git\DataStruct\Disjoint Set Union\DisjointSetUnion.c(77): warning C4715: “findImporve”: 不是所有的控件路径都返回值
+  Disjoint Set Union.vcxproj -> D:\git\DataStruct\Disjoint Set Union\Debug\Disjoint Set Union.exe
