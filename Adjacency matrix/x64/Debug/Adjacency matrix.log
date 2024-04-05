@@ -1,0 +1,9 @@
+﻿  Adjacency matrix.c
+D:\git\DataStruct\Adjacency matrix\Adjacency matrix.c(157,3): warning C4033: “FirstNeighbor”必须返回值
+D:\git\DataStruct\Adjacency matrix\Adjacency matrix.c(174,3): warning C4033: “NextNeighbor”必须返回值
+D:\git\DataStruct\Adjacency matrix\Adjacency matrix.c(191,3): warning C4033: “Get_edge_value”必须返回值
+D:\git\DataStruct\Adjacency matrix\Adjacency matrix.c(207,23): warning C4020: “Neighbors”: 实参太多
+D:\git\DataStruct\Adjacency matrix\Adjacency matrix.c(167): warning C4715: “FirstNeighbor”: 不是所有的控件路径都返回值
+D:\git\DataStruct\Adjacency matrix\Adjacency matrix.c(198): warning C4715: “Get_edge_value”: 不是所有的控件路径都返回值
+D:\git\DataStruct\Adjacency matrix\Adjacency matrix.c(184): warning C4715: “NextNeighbor”: 不是所有的控件路径都返回值
+  Adjacency matrix.vcxproj -> D:\git\DataStruct\Adjacency matrix\x64\Debug\Adjacency matrix.exe
