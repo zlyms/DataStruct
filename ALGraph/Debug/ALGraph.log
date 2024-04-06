@@ -1,0 +1,7 @@
+﻿  ALGraph.c
+D:\git\DataStruct\ALGraph\ALGraph.c(63,3): warning C4033: “Adjacent”必须返回值
+D:\git\DataStruct\ALGraph\ALGraph.c(361,3): warning C4033: “Get_edge_value”必须返回值
+D:\git\DataStruct\ALGraph\ALGraph.c(99): warning C4715: “Adjacent”: 不是所有的控件路径都返回值
+D:\git\DataStruct\ALGraph\ALGraph.c(277): warning C4715: “FirstNeighbor”: 不是所有的控件路径都返回值
+D:\git\DataStruct\ALGraph\ALGraph.c(364): warning C4715: “Get_edge_value”: 不是所有的控件路径都返回值
+  ALGraph.vcxproj -> D:\git\DataStruct\ALGraph\Debug\ALGraph.exe
