@@ -31,7 +31,7 @@ void IniAdjMulList(AML* aml)
 }
 void addvex() {}//与十字链表无异
 void addedge() {}//把边节点头插进两个节点的firstedge，把它们所指向的边节点分别赋给新加入的节点
-void removeedge() {}//把ilink，jlink分别赋给x->first，y->first.然后free
+void removeedge() {}//通过节点编号找到边节点的前驱，分别把ilink，jlink赋给指向该边节点的指针
 void Deletevertex() {}//调用removeedge删除所有依附x的节点，vnum--，节点置#
 int main()
 {
