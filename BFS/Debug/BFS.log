@@ -1,0 +1,7 @@
+﻿  BFS.c
+D:\git\DataStruct\BFS\BFS.c(159,3): warning C4033: “Adjacent”必须返回值
+D:\git\DataStruct\BFS\BFS.c(483,3): warning C4033: “Get_edge_value”必须返回值
+D:\git\DataStruct\BFS\BFS.c(197): warning C4715: “Adjacent”: 不是所有的控件路径都返回值
+D:\git\DataStruct\BFS\BFS.c(391): warning C4715: “FirstNeighbor”: 不是所有的控件路径都返回值
+D:\git\DataStruct\BFS\BFS.c(486): warning C4715: “Get_edge_value”: 不是所有的控件路径都返回值
+  BFS.vcxproj -> D:\git\DataStruct\BFS\Debug\BFS.exe
