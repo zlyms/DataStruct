@@ -1,0 +1,3 @@
+﻿  BFS_Min_Distance.c
+D:\git\DataStruct\BFS_Min_Distance\BFS_Min_Distance.c(391): warning C4715: “FirstNeighbor”: 不是所有的控件路径都返回值
+  BFS_Min_Distance.vcxproj -> D:\git\DataStruct\BFS_Min_Distance\Debug\BFS_Min_Distance.exe
