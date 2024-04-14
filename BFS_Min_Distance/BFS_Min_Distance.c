@@ -485,23 +485,25 @@ int Get_edge_value(ALGraph* alg, vextype x, vextype y)
 	return p->arcValue;
 }
 /*
- * 广度优先搜索遍历图，从顶点 v 开始
+ * 使用广度优先搜索计算从顶点 v 到图中其他顶点的最短距离及最短路径
  * 参数：
  *   - alg: 指向图的指针
  *   - lq: 指向队列的指针，用于辅助遍历
  *   - v: 开始遍历的顶点
+ * 注意事项：
+ *   - 图中为边权为1，否则无法得到正确的最短距离
  */
 void BFS_Min_Distance(ALGraph* alg, LQueue* lq, vextype v)
 {
 	int t = Getindex(alg, v); // 获取顶点 v 在顶点集合中的索引
-	int path[MAXSIZE] = { 0 };
-	int dis[MAXSIZE] = { 0 };
-	for (int i = 0; i < MAXSIZE; i++) 
+	int path[MAXSIZE] = { 0 }; // 记录最短路径的前驱顶点
+	int dis[MAXSIZE] = { 0 }; // 记录最短距离
+	for (int i = 0; i < MAXSIZE; i++)
 	{
-		dis[i] = 9999;
-		path[i] = -1;
+		dis[i] = 9999; // 初始化距离为一个较大的值，表示未知距离
+		path[i] = -1; // 初始化路径为 -1，表示未知路径
 	}
-	dis[t] = 0;
+	dis[t] = 0; // 设置起始顶点到自身的距离为 0
 	vextype y = v; // 初始化 y 为顶点 v
 	vextype x = v; // 初始化 x 为顶点 v
 	char visited[MAXSIZE] = { 0 }; // 初始化访问标志数组
@@ -511,15 +513,15 @@ void BFS_Min_Distance(ALGraph* alg, LQueue* lq, vextype v)
 	while (isempty(lq) == 0) // 当队列非空时循环执行
 	{
 		deQueue(lq, &x); // 出队列一个顶点 x
-		int u = Getindex(alg, x);
+		int u = Getindex(alg, x); // 获取顶点 x 在顶点集合中的索引
 		for (int w = FirstNeighbor(alg, x); w >= 0; w = NextNeighbor(alg, x, y)) // 遍历顶点 x 的邻接顶点
 		{
 			y = alg->vertices[w].data; // 获取邻接顶点的数据
 			if (visited[w] == 0) // 如果邻接顶点尚未访问过
 			{
 				visited[w] = 1; // 标记该顶点为已访问
-				dis[w] = dis[u] + 1;
-				path[w] = u;
+				dis[w] = dis[u] + 1; // 更新从顶点 v 到顶点 w 的最短距离
+				path[w] = u; // 记录从顶点 v 到顶点 w 的最短路径的前驱顶点
 				EnQueue(lq, y); // 将该顶点入队列
 			}
 		}
