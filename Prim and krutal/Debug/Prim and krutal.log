@@ -1,0 +1,5 @@
+﻿  Prim and kruskal.c
+D:\git\DataStruct\Prim and krutal\Prim and kruskal.c(398,3): warning C4033: “Get_edge_value”必须返回值
+D:\git\DataStruct\Prim and krutal\Prim and kruskal.c(306): warning C4715: “FirstNeighbor”: 不是所有的控件路径都返回值
+D:\git\DataStruct\Prim and krutal\Prim and kruskal.c(401): warning C4715: “Get_edge_value”: 不是所有的控件路径都返回值
+  Prim and krutal.vcxproj -> D:\git\DataStruct\Prim and krutal\Debug\Prim and kruskal.exe
