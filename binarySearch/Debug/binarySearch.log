@@ -1,0 +1,4 @@
+﻿  binarySearch.c
+D:\git\DataStruct\binarySearch\binarySearch.c(67,3): warning C4033: “binarySearch”必须返回值
+D:\git\DataStruct\binarySearch\binarySearch.c(89): warning C4715: “binarySearch”: 不是所有的控件路径都返回值
+  binarySearch.vcxproj -> D:\git\DataStruct\binarySearch\Debug\binarySearch.exe
