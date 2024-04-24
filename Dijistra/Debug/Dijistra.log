@@ -1,0 +1,3 @@
+﻿  Dijistra.c
+D:\git\DataStruct\Dijistra\Dijistra.c(391): warning C4715: “FirstNeighbor”: 不是所有的控件路径都返回值
+  Dijistra.vcxproj -> D:\git\DataStruct\Dijistra\Debug\Dijistra.exe
