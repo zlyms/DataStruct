@@ -1,0 +1,4 @@
+﻿  BST.c
+D:\git\DataStruct\BST\BST.c(62): warning C4715: “BSTsearch”: 不是所有的控件路径都返回值
+D:\git\DataStruct\BST\BST.c(117): warning C4715: “DeleteBSTNode”: 不是所有的控件路径都返回值
+  BST.vcxproj -> D:\git\DataStruct\BST\Debug\BST.exe
